@@ -1,5 +1,13 @@
 # octane
 
+## 0.2.11
+
+### Patch Changes
+
+- 2789eab: Read descriptor list keys directly during reconciliation without creating a key callback for each list render, while preserving keyed identity and hydration behavior.
+
+  Keep mapped component slots compatible when rendering switches between native array mapping and a custom map implementation, preserving hydrated inputs and component identity.
+
 ## 0.2.10
 
 ### Patch Changes
