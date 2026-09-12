@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite';
 import tsrxSolid from '@tsrx/vite-plugin-solid';
-import solidPlugin from 'vite-plugin-solid';
+import solidPlugin from '@solidjs/vite-plugin';
 
 // `.tsrx` → (tsrxSolid) Solid-flavoured TSX → (vite-plugin-solid) Solid runtime.
 // `ssr: true` makes BOTH transforms hydratable: the SSR pass (ssrLoadModule,
